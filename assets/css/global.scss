@@ -1,0 +1,60 @@
+/*------------ ptov ------------*/
+@function v($size, $viewport: 750) {
+  $rate: 100 / $viewport;
+  @return decimal-round($rate * $size * 1vw);
+}
+
+/*------------ 四捨五入 ------------*/
+@function decimal-round($number, $digits: 2, $mode: round) {
+  $n: 1;
+  @if type-of($number) != number {
+    @warn '#{ $number } is not a number.';
+    @return $number;
+  }
+  @if type-of($digits) != number {
+    @warn '#{ $digits } is not a number.';
+    @return $number;
+  } @else if not unitless($digits) {
+    @warn '#{ $digits } has a unit.';
+    @return $number;
+  }
+  @if $digits > 0 {
+    @for $i from 1 through $digits {
+      $n: $n * 10;
+    }
+  }
+  @if $mode == round {
+    @return round($number * $n) / $n;
+  } @else if $mode == ceil {
+    @return ceil($number * $n) / $n;
+  } @else if $mode == floor {
+    @return floor($number * $n) / $n;
+  } @else {
+    @warn '#{ $mode } is undefined keyword.';
+    @return $number;
+  }
+}
+
+$black: #1b1b1b;
+
+$breakpoint-mobile: 750px;
+
+@mixin mobile {
+  @media only screen and (max-width: ($breakpoint-mobile)) {
+    @content;
+  }
+}
+
+.html {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  font-feature-settings: "palt", "kern";
+  color: $black;
+  font-size: 16px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+// a:hover {
+//   filter: opacity(50%);
+// }
