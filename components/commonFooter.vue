@@ -11,4 +11,10 @@
         background: $black;
     }
 
+    @include mobile {
+        .footer {
+            height: 14vw;
+        }
+    }
+
 </style>

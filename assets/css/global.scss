@@ -35,7 +35,8 @@
   }
 }
 
-$black: #1b1b1b;
+$black: #000000;
+$blue: #0000ff;
 
 $breakpoint-mobile: 750px;
 
@@ -45,16 +46,27 @@ $breakpoint-mobile: 750px;
   }
 }
 
-.html {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+@font-face {
+  font-family: 'firacode';
+  src: url('~/assets/font/FiraCode-Regular.woff') format("woff");
+}
+
+html {
+  font-family:"firacode", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
     Meiryo, "ＭＳ Ｐゴシック", sans-serif;
   font-feature-settings: "palt", "kern";
   color: $black;
   font-size: 16px;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  color: $black;
+  line-height: 1.3;
 }
 
-// a:hover {
-//   filter: opacity(50%);
-// }
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  cursor: pointer;
+}

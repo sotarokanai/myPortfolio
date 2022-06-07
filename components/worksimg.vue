@@ -1,5 +1,5 @@
-<template>
-    <a @click="$router.push(linkPath)">
+<template>   
+    <a class="work-link" @click="$router.push(linkPath)">
         <img :src="src" alt="">
         <p>{{worksTtl}}</p>
     </a>
@@ -9,7 +9,7 @@
 export default {
     props: {
         src: {
-            default: require('~/assets/img/1.png'),
+            default: require('~/assets/img/1.jpg'),
             type: String,
         },
         worksTtl: {
@@ -25,23 +25,34 @@ export default {
 </script>
 
 <style lang="scss">
-a {
-    margin: 0.1vw;
-    position: relative;
+.work-link {
+    margin-bottom: 34px;
+    text-decoration: none;
     img {
-        width: 28vw;  
+        width: 368px;
+        margin-bottom: 8px;
     }
     p {
-        margin: -14.3vw;
-        color: #fff;
-        display: none;
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 a:hover {
-    filter: brightness(1.4);
+    filter: brightness(0.8);
     p {
         display: block;
+    }
+}
+
+@include mobile {
+    .work-link {
+        margin-bottom: v(35);
+        img {
+            width: v(680);
+            margin-bottom: v(12);
+        }
+        p {
+            font-size: v(20);
+        }
     }
 }
 </style>

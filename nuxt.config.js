@@ -4,15 +4,23 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'mywork',
+    title: 'YYG NT Lab',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja',
+      refix: 'og: http://ogp.me/ns#'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'YYG NT Labのホームページ' },
+      { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'YYG NT LaB' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'kazumakanai.com' },
+      { hid: 'og:title', property: 'og:title', content: 'YYG NT Lab' },
+      { hid: 'og:description', property: 'og:description', content: 'YYG NT Labのホームページ' },
+      { hid: 'og:image', property: 'og:image', content: 'https://kazumakanai.com/ogp.png' },
+      { name: 'twitter:card', content: 'summary' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
