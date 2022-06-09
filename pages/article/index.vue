@@ -4,6 +4,9 @@
             <articleTtl
             :linkPath='`article/01`'
             >あとで何かけるかな</articleTtl>
+            <articleTtl
+            :linkPath='`article/02`'
+            >あとで何かけるかな</articleTtl>
         </div>
     </div>
     

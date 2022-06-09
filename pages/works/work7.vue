@@ -1,19 +1,16 @@
 <template>
     <div class="works">
         <div class="content-area">
-            <ttlTxt>Effectron - iOS App</ttlTxt>
-            <paragraph>planning, direction, visual Effect, design<br><a href="https://apps.apple.com/jp/app/effectron/id1526438768">download</a></paragraph>
+            <ttlTxt>LED Vision</ttlTxt>
+            <paragraph>visual Effect</paragraph>
             <contentImage
-                :src="require(`~/assets/img/1.jpg`)"
+            :src="require(`~/assets/img/led_l.jpg`)"        
             ></contentImage>
-            <!-- srcの部分変えれば動画を埋め込めるで -->
-            <iframe src="https://www.youtube.com/embed/zVonK6b82J8" title="YouTube video player" frameborder="0" allow=" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
             <ttlTxt>tool</ttlTxt>
-            <paragraph>unity, ARFoundation</paragraph>
+            <paragraph>TouchDesiner</paragraph>
         </div>
     </div>
 </template>
-
 
 <style lang="scss">
 .works {

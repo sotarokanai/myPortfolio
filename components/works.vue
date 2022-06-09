@@ -2,6 +2,7 @@
     <div class="works">
         <div class="container">
             <div class="container">
+                <!-- assetsの中から1,2,3.jpgの順で読み込むようなっとるで -->
                 <worksimg
                 v-for='(data,index) in worksData'
                 :key='data.title'
@@ -23,12 +24,14 @@ export default {
   data:()=>{
     return {
       worksData:[
-        {title:'effectron - iOS App'},
-        {title:'平塚サンダーバードちゃん - Music Video'},
-        {title:'sommeil someil - Music Video'},
-        {title:'霊障 - Book cover'},
-        {title:'しずくだうみ - Music Video'},
-        {title:'LED Vision'},
+        // ページ増やすときはここにタイトル追加。works/works1,2,3.vueとassets/imgに1,2,3.jpgの追加も忘れずに
+        {title:'順次タイトル追加1'},
+        {title:'順次タイトル追加2'},
+        {title:'順次タイトル追加3'},
+        {title:'順次タイトル追加4'},
+        {title:'順次タイトル追加5'},
+        {title:'順次タイトル追加6'},
+        {title:'順次タイトル追加7'},
       ]
     }    
   }

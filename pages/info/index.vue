@@ -2,16 +2,18 @@
     <div class="info">
         <div class="content-area">
             <!-- <ttlTxt f_size="64px">inu</ttlTxt> -->
-            <ttlTxt>profile</ttlTxt>
-            <paragraph>kazuma kanai<br>visual effect / mobile app dev</paragraph>
+            <ttlTxt>ttlTxtでかこうとタイトルになるで</ttlTxt>
+            <paragraph>paragraphで書こうと本文サイズ<br>これ改行。</paragraph>
             <ttlTxt>contact</ttlTxt>
-            <paragraph>im@kazumakanai.com<br><a href="https://twitter.com/YYG_NT_LAB" style="text-decoration: underline;">Twitter</a></paragraph>
+            <paragraph>im@kazumakanai.com<br>こんな感じでaで囲うとリンク<a href="https://twitter.com/" style="text-decoration: underline;">Twitter</a></paragraph>
+            <!-- default_size="800px"ここでサイズ指定できる
+            srcの中に好きな画像入れて -->
             <contentImage
                 default_size="800px"
                 :src="require(`~/assets/img/portrate.jpg`)"
             ></contentImage>
             <ttlTxt>tool</ttlTxt>
-            <paragraph>touchdesigner, blender, unity, processingとか</paragraph>
+            <paragraph>example, example, example</paragraph>
         </div>
     </div>
 </template>

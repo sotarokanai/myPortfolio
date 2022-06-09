@@ -4,8 +4,8 @@
             <!-- <ttlTxt f_size="64px">inu</ttlTxt> -->
             <ttlTxt>このページ使うかな</ttlTxt>
             <paragraph>作ったはいいけど書かないよなぁ</paragraph>
-            <ttlTxt>inu</ttlTxt>
-            <paragraph>neko</paragraph>
+            <ttlTxt>マンモス</ttlTxt>
+            <paragraph>うれぴい</paragraph>
         </div>
     </div>
 </template>

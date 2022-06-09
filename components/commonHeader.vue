@@ -20,8 +20,6 @@ export default {
             let g = 1;
             let y = 2;
             p5.setup = _ => {
-                // var canvas = p5.createCanvas(1144, 66)
-                // canvas.parent("p5Canvas");
 
                 if(window.innerWidth > 750) {
                     var canvas = p5.createCanvas(1144, 66)
@@ -31,13 +29,6 @@ export default {
                     canvas.parent("p5Canvas");
                 }
                 
-                // if(colSet == r ){
-                //     p5.background(255, 61, 90);
-                // } else if(colSet == g) {
-                //     p5.background(99, 212, 30);
-                // } else if(colSet == y) {
-                //     p5.background(255, 233, 36);
-                // }
                 p5.background(255);
         
                 p5.stroke(0);
@@ -49,13 +40,6 @@ export default {
 
             p5.mousePressed = _ => {
                 colSet = p5.int(p5.random(0,3));
-                // if(colSet == r ){
-                //     p5.background(255, 61, 90);
-                // } else if(colSet == g) {
-                //     p5.background(99, 212, 30);
-                // } else if(colSet == y) {
-                //     p5.background(255, 233, 36);
-                // }
                 p5.background(255);
                 p5.stroke(0);
                 for (let i = 0; i < 200; i++) {
