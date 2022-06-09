@@ -4,7 +4,7 @@
             <ttlTxt>霊障 - Book cover</ttlTxt>
             <paragraph>design<br><a href="https://booth.pm/ja/items/2976087">store</a></paragraph>
             <contentImage
-            :src="require(`~/assets/img/reisho_l.jpg`)"
+            :src="require(`~/assets/img/other/reisho_l.jpg`)"
             default_size="400px"
             ></contentImage>
             <ttlTxt>tool</ttlTxt>

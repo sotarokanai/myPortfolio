@@ -37,7 +37,7 @@ export default {
           breakpointWidth: 1200,
           numberOfCols: 10,
           items: [
-            { id: "1", x: 0, y: 0, width: 4, height: 4, ga: require("~/assets/img/1.jpg"), contentTtl: "いぬのなまえ"},
+            { id: "1", x: 0, y: 0, width: 4, height: 4, ga: require("~/assets/img/works/1.jpg"), contentTtl: "いぬのなまえ"},
             { id: "2", x: 4, y: 0, width: 2, height: 2 },
             { id: "3", x: 6, y: 0, width: 2, height: 2 },
             { id: "4", x: 8, y: 0, width: 2, height: 2 },

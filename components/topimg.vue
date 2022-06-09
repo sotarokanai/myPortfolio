@@ -5,7 +5,7 @@
 
 <style lang="scss">
     .topimg {
-        background: url("~/assets/img/1.jpg") center top no-repeat;
+        background: url("~/assets/img/works/1.jpg") center top no-repeat;
         height: 500px;
         width: 100vw;
         background-size: cover;

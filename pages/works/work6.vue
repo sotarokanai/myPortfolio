@@ -4,7 +4,7 @@
             <ttlTxt>LED Vision</ttlTxt>
             <paragraph>visual Effect</paragraph>
             <contentImage
-            :src="require(`~/assets/img/led_l.jpg`)"        
+            :src="require(`~/assets/img/other/led_l.jpg`)"        
             ></contentImage>
             <ttlTxt>tool</ttlTxt>
             <paragraph>TouchDesiner</paragraph>

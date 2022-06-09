@@ -6,7 +6,7 @@
                 <worksimg
                 v-for='(data,index) in worksData'
                 :key='data.title'
-                :src="require(`~/assets/img/${index+1}.jpg`)"
+                :src="require(`~/assets/img/works/${index+1}.jpg`)"
                 :linkPath='`works/work${index+1}`'
                 :worksTtl='data.title'
                 ></worksimg>
@@ -25,7 +25,7 @@ export default {
     return {
       worksData:[
         // ページ増やすときはここにタイトル追加。works/works1,2,3.vueとassets/imgに1,2,3.jpgの追加も忘れずに
-        {title:'順次タイトル追加1'},
+        {title:'猫さん'},
         {title:'順次タイトル追加2'},
         {title:'順次タイトル追加3'},
         {title:'順次タイトル追加4'},

@@ -9,7 +9,7 @@
 export default {
     props: {
         src: {
-            default: require('~/assets/img/1.jpg'),
+            default: require('~/assets/img/works/1.jpg'),
             type: String,
         },
         worksTtl: {
