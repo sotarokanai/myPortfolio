@@ -1,16 +1,20 @@
 <template>
     <div class="works">
         <div class="content-area">
-            <ttlTxt>平塚サンダーバードちゃん - Music Video</ttlTxt>
+            <ttlTxt>まみみ</ttlTxt>
             <paragraph>direction, shootiong, editing</paragraph>
             <!-- <contentImage
                 :src="require(`~/assets/img/2.jpg`)"
             ></contentImage> -->
-            <iframe src="https://www.youtube.com/embed/Cgv8jWykfaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <contentImage
+                :src="require(`~/assets/img/other/mamimi2.jpg`)"
+            ></contentImage>
+            <contentImage
+                :src="require(`~/assets/img/works/2.jpg`)"
+            ></contentImage>
+            <!-- <iframe src="https://www.youtube.com/embed/Cgv8jWykfaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             <ttlTxt>tool</ttlTxt>
-            <paragraph>AfterEffects, hydra, youtube</paragraph>
-            <ttlTxt>publication</ttlTxt>
-            <paragraph><a href="https://japanese.engadget.com/effectron-dev-023013942.html">iOSアプリ開発者に訊く：LiDARで空間を演出するEffectron</a></paragraph>
+            <paragraph>TouchDesigner, youtube</paragraph>
         </div>
     </div>
 </template>

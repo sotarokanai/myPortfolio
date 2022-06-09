@@ -6,10 +6,13 @@
             <contentImage
                 :src="require(`~/assets/img/works/1.jpg`)"
             ></contentImage>
+             <contentImage
+                :src="require(`~/assets/img/other/td_noise.jpg`)"
+            ></contentImage>
             <!-- srcの部分変えれば動画を埋め込めるで -->
-            <iframe src="https://www.youtube.com/embed/zVonK6b82J8" title="YouTube video player" frameborder="0" allow=" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+            <!-- <iframe src="https://www.youtube.com/embed/zVonK6b82J8" title="YouTube video player" frameborder="0" allow=" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> -->
             <ttlTxt>tool</ttlTxt>
-            <paragraph>unity, ARFoundation</paragraph>
+            <paragraph>TouchDesigner</paragraph>
         </div>
     </div>
 </template>
