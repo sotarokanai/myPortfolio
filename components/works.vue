@@ -28,7 +28,7 @@ export default {
         {title:'墨汁の抽象化＜TouchDesignerを用いたノイズ表現＞'},
         {title:'まみみ'},
         {title:'DANCE'},
-        {title:'rundom'},
+        {title:'random'},
         {title:'Laser Marking'},
         {title:'name card'},
         {title:'デッサンと学校基礎課題＜一部＞'},

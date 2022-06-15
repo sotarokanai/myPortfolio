@@ -1,7 +1,7 @@
 <template>
     <div class="works">
         <div class="content-area">
-            <ttlTxt>rundom</ttlTxt>
+            <ttlTxt>random</ttlTxt>
             <paragraph>TouchDesignerを扱ったランダム表現とAxiDrawによるプリント。</paragraph>
              <contentImage
             :src="require(`~/assets/img/other/pn7.png`)"
