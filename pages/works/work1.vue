@@ -1,18 +1,17 @@
 <template>
     <div class="works">
         <div class="content-area">
-            <ttlTxt>自己紹介</ttlTxt>
-            <paragraph>planning, direction, visual Effect, design<br><a href="https://apps.apple.com/jp/app/effectron/id1526438768">download</a></paragraph>
+            <ttlTxt>墨汁の抽象化＜TouchDesignerを用いたノイズ表現＞</ttlTxt>
+            <paragraph>複数のノイズが重なり、水墨画のように表現されたオブジェクトが徐々に単純化され、等高線で描かれた地図のようなオブジェクトに変化していく。<br>TouchDesignerを用いてノイズの変化と墨汁の抽象化を表現した。</paragraph>
             <contentImage
                 :src="require(`~/assets/img/works/1.jpg`)"
             ></contentImage>
              <contentImage
                 :src="require(`~/assets/img/other/td_noise.jpg`)"
             ></contentImage>
-            <!-- srcの部分変えれば動画を埋め込めるで -->
-            <!-- <iframe src="https://www.youtube.com/embed/zVonK6b82J8" title="YouTube video player" frameborder="0" allow=" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe> -->
+             <iframe src="https://www.youtube.com/embed/K_wJTB3JFeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <ttlTxt>tool</ttlTxt>
-            <paragraph>TouchDesigner</paragraph>
+            <paragraph>TouchDesigner, YouTube</paragraph>
         </div>
     </div>
 </template>

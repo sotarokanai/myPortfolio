@@ -5,8 +5,11 @@
                 <h1><a @click="$router.push('/')">SOTARO KANAI</a></h1>
                 <p><a @click="$router.push('/info')">profile</a>
                 <a href="https://www.instagram.com/sotarokanai/" target="_blank">Instagram</a></p>
-                <img src="~/assets/img/other/header_bottom.png" alt="">
-            </div>         
+                <!-- <img src="~/assets/img/other/header_bottom.png" alt="">   -->
+                <video autoplay loop muted>
+                    <source src="~/assets/img/other/header7.mp4" type="video/mp4">
+                </video>             
+            </div>                   
         </div>
     </div>
 </template>
@@ -41,7 +44,7 @@ export default {
                 color: $blue;
             }
         }
-        img {
+        video {
             margin: 26px 0;
         }
     }    
@@ -61,7 +64,7 @@ export default {
                     color: $blue;
                 }
             }
-            #p5Canvas {
+            video {
                 height: v(45);
                 width: v(680);
                 margin: v(35) 0;

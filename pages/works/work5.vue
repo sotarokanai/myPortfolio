@@ -1,11 +1,19 @@
 <template>
     <div class="works">
         <div class="content-area">
-            <ttlTxt>しずくだうみ - Music Video</ttlTxt>
-            <paragraph>direction, shootiong, editting</paragraph>
-            <iframe src="https://www.youtube.com/embed/EyRGE-lPS_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <ttlTxt>Laser Marking</ttlTxt>
+            <paragraph>製作した土版に、TouchDesignerで生成した複数の模様をファイバーレーザーマーカーを用いて印刷した。</paragraph>
+             <contentImage
+            :src="require(`~/assets/img/other/laser.jpg`)"
+            ></contentImage>
+            <contentImage
+            :src="require(`~/assets/img/other/laser2.jpg`)"
+            ></contentImage>
+            <contentImage
+            :src="require(`~/assets/img/other/line3.png`)"
+            ></contentImage>
             <ttlTxt>tool</ttlTxt>
-            <paragraph>Premiere Pro, pen</paragraph>
+            <paragraph>ファイバーレーザーマーカー（光響製）, ヤコのオーブン陶土 TouchDesigner</paragraph>
         </div>
     </div>
 </template>

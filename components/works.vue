@@ -25,13 +25,13 @@ export default {
     return {
       worksData:[
         // ページ増やすときはここにタイトル追加。works/works1,2,3.vueとassets/imgに1,2,3.jpgの追加も忘れずに
-        {title:'猫さん'},
-        {title:'順次タイトル追加2'},
-        {title:'順次タイトル追加3'},
-        {title:'順次タイトル追加4'},
-        {title:'順次タイトル追加5'},
-        {title:'順次タイトル追加6'},
-        {title:'順次タイトル追加7'},
+        {title:'墨汁の抽象化＜TouchDesignerを用いたノイズ表現＞'},
+        {title:'まみみ'},
+        {title:'DANCE'},
+        {title:'rundom'},
+        {title:'Laser Marking'},
+        {title:'name card'},
+        {title:'デッサンと学校基礎課題＜一部＞'},
       ]
     }    
   }

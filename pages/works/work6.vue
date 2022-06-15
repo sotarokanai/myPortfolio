@@ -1,13 +1,19 @@
 <template>
     <div class="works">
         <div class="content-area">
-            <ttlTxt>LED Vision</ttlTxt>
-            <paragraph>visual Effect</paragraph>
+            <ttlTxt>name card</ttlTxt>
+            <paragraph>デザインした名刺をAxiDrawを用いて印刷を行なった。</paragraph>
             <contentImage
-            :src="require(`~/assets/img/other/led_l.jpg`)"        
+            :src="require(`~/assets/img/other/DSC01990.jpg`)"        
+            ></contentImage>
+            <contentImage
+            :src="require(`~/assets/img/other/DSC01972.jpg`)"        
+            ></contentImage>
+            <contentImage
+            :src="require(`~/assets/img/other/namecard2.png`)"        
             ></contentImage>
             <ttlTxt>tool</ttlTxt>
-            <paragraph>TouchDesiner</paragraph>
+            <paragraph>AxiDraw, Adobe Illustrator</paragraph>
         </div>
     </div>
 </template>

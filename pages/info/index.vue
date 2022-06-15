@@ -8,8 +8,8 @@
             <!-- default_size="800px"ここでサイズ指定できる
             srcの中に好きな画像入れて -->
             <contentImage
-                default_size="800px"
-                :src="require(`~/assets/img/info/portrate.jpg`)"
+                default_size="500px"
+                :src="require(`~/assets/img/info/IMG_4439.jpg`)"
             ></contentImage>
             <ttlTxt>contact</ttlTxt>
             <paragraph>sotarokanai@gmail.com<br><a href="https://www.instagram.com/sotarokanai/" style="text-decoration: underline;">Instagram</a></paragraph>
