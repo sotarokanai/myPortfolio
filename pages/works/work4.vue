@@ -1,14 +1,20 @@
 <template>
     <div class="works">
         <div class="content-area">
-            <ttlTxt>霊障 - Book cover</ttlTxt>
-            <paragraph>design<br><a href="https://booth.pm/ja/items/2976087">store</a></paragraph>
+            <ttlTxt>rundom</ttlTxt>
+            <paragraph>TouchDesignerを扱ったランダム表現とAxiDrawによるプリント。</paragraph>
+             <contentImage
+            :src="require(`~/assets/img/other/pn7.png`)"
+            default_size="600px"
+            ></contentImage>
+             <contentImage
+            :src="require(`~/assets/img/other/4.jpg`)"
+            ></contentImage>
             <contentImage
-            :src="require(`~/assets/img/other/reisho_l.jpg`)"
-            default_size="400px"
+            :src="require(`~/assets/img/other/axi.jpg`)"
             ></contentImage>
             <ttlTxt>tool</ttlTxt>
-            <paragraph>Blender</paragraph>
+            <paragraph>TouchDesigner, AxiDraw</paragraph>
         </div>
     </div>
 </template>
